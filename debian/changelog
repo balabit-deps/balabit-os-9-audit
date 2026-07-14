@@ -1,3 +1,10 @@
+audit (1:3.0.7-1ubuntu0.1) jammy; urgency=medium
+
+  * Fix AppArmor AVC events not appearing in `ausearch` (LP: #1117804)
+    - d/p/lp1117804-audit-ausearch-do-not-require-tclass.patch
+
+ -- Alex Ramírez <alex.ramirez@canonical.com>  Tue, 14 Jul 2026 17:13:46 +0000
+
 audit (1:3.0.7-1build1) jammy; urgency=medium
 
   * No-change rebuild with Python 3.10 only.

@@ -1,6 +1,7 @@
 Source: audit
 Priority: optional
-Maintainer: Laurent Bigonville <bigon@debian.org>
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+XSBC-Original-Maintainer: Laurent Bigonville <bigon@debian.org>
 Build-Depends: debhelper-compat (= 12),
                dh-python <!nopython>,
 #               dh-golang,
